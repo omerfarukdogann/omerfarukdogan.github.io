@@ -60,9 +60,9 @@ button:hover {
 }
 
 .card-started:after {
-  background: -moz-linear-gradient(-45deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
+  /*background: -moz-linear-gradient(-45deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
   background: -webkit-linear-gradient(-45deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
-  background: linear-gradient(135deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
+  background: linear-gradient(135deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);*/
 }
 
 .card-started .profile .image:before {
@@ -82,9 +82,9 @@ button:hover {
 }
 
 .content .title:before {
-  background: -moz-linear-gradient(-45deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
+  /*background: -moz-linear-gradient(-45deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
   background: -webkit-linear-gradient(-45deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
-  background: linear-gradient(135deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);
+  background: linear-gradient(135deg, rgba(120, 204, 109, 0.4) 0%, rgba(120, 204, 109, 0.01) 100%);*/
 }
 
 .service-items .service-item .icon {
@@ -228,12 +228,12 @@ textarea:focus {
 }
 
 .content .title .first-word {
-  color: #78cc6d;
+  /*color: #78cc6d;*/
 }
 
 .content .title::first-letter,
 .content .title .first-letter::first-letter {
-  color: #78cc6d;
+  /*color: #78cc6d;*/
 }
 
 .new-skin .service-items .service-item .icon {

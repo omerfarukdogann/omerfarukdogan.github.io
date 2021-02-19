@@ -699,7 +699,7 @@ input[type="file"] {
 	position: relative;
 	margin: 0;
 	display: inline-block;
-	color: #78cc6d;
+	/*color: #78cc6d;*/
 	font-size: 16px;
 	line-height: 20px;
 	height: 20px;
@@ -826,12 +826,12 @@ input[type="file"] {
 }
 
 .content .title .first-word {
-	color: #78cc6d;
+	/*color: #78cc6d;*/
 }
 
 .content .title::first-letter,
 .content .title .first-letter::first-letter {
-	color: #78cc6d;
+	/*color: #78cc6d;*/
 }
 
 .content .post-comments .title .first-word {
@@ -844,9 +844,9 @@ input[type="file"] {
 }
 
 .content .title:before {
-	background: -moz-linear-gradient(-45deg, rgba(46, 202, 127, 0.15) 0%, rgba(46, 202, 127, 0.01) 100%);
+	/*background: -moz-linear-gradient(-45deg, rgba(46, 202, 127, 0.15) 0%, rgba(46, 202, 127, 0.01) 100%);
 	background: -webkit-linear-gradient(-45deg, rgba(46, 202, 127, 0.15) 0%, rgba(46, 202, 127, 0.01) 100%);
-	background: linear-gradient(135deg, rgba(46, 202, 127, 0.15) 0%, rgba(46, 202, 127, 0.01) 100%);
+	background: linear-gradient(135deg, rgba(46, 202, 127, 0.15) 0%, rgba(46, 202, 127, 0.01) 100%);*/
 }
 
 .content .title:after {
