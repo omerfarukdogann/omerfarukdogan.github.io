@@ -15,12 +15,12 @@
     5. Component
     6. Pages
     
-*/
-@import url(../vendor/perfect-scrollbar/perfect-scrollbar.css);
+
+@import url(../vendor/perfect-scrollbar/perfect-scrollbar.css);*/
 @import url(../vendor/datatable/jquery.dataTables.min.css);
 @import url(../vendor/vectormap/jqvmap.css);
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap");
-@import url("../icons/font-awesome/css/all.css");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
 .bg {
   background: #6200ee;
 }
