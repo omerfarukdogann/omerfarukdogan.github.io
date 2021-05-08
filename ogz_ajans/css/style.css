@@ -491,7 +491,6 @@ h3 {
 }
 @media (min-width: 600px) {
   .hero-banner--sm__content {
-    /*margin-top: 40px;*/
   }
 }
 .hero-banner--sm__content > * {
@@ -587,7 +586,6 @@ h3 {
 }
 @media (min-width: 991px) {
   .offer-single {
-    /*margin-bottom: 50px;*/
   }
 }
 .offer-single__content {
@@ -638,7 +636,6 @@ h3 {
 @media (min-width: 991px) {
   .offer-single-wrapper .offer-single:nth-child(even) {
     position: relative;
-    /*top: 40px;*/
   }
 }
 @media (min-width: 1200px) {
@@ -782,12 +779,6 @@ h3 {
   display: block;
   margin: auto;
   line-height: 70px;
-  /*-webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  filter: grayscale(100%);
-  opacity: 0.2;*/
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
