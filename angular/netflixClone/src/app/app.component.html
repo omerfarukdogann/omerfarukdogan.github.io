@@ -1,0 +1,983 @@
+<header uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+  <nav class="uk-navbar-container uk-navbar-transparent uk-background-secondary px-4" uk-navbar>
+    <div class="nav-overlay uk-navbar-left">
+      <a class="uk-navbar-toggle" uk-toggle="target: #leftmenu-push;"><span uk-navbar-toggle-icon></span></a>
+      <a href="index.html" class="uk-navbar-item uk-logo mr-2"><img src="{{logo}}"></a>
+      <ul class="uk-navbar-nav">
+        <li><a href="index"><i class="fas fa-home fa-sm mr-1"></i> Anasayfa</a></li>
+        <li><a href="movies.html"><i class="fas fa-video fa-sm mr-1"></i> Filmler</a></li>
+        <li><a href="categories"><i class="fas fa-list fa-sm mr-1"></i> Kategoriler</a></li>
+        <li><a href="contact"><i class="fas fa-envelope fa-sm mr-1"></i> İletişim</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-overlay uk-navbar-right">
+      <a class="uk-navbar-toggle" uk-search-icon uk-toggle="target: .nav-overlay; animation: uk-animation-fade"
+        href="#"></a>
+    </div>
+
+    <div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
+      <div class="uk-navbar-item uk-width-expand">
+        <form class="uk-search uk-search-navbar uk-width-1-1">
+          <input class="uk-search-input" type="search" placeholder="Film ara..." autofocus>
+        </form>
+      </div>
+      <a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+    </div>
+  </nav>
+</header>
+
+<div id="leftmenu-push" uk-offcanvas="mode: push; overlay: true">
+  <div class="uk-offcanvas-bar">
+    <button class="uk-offcanvas-close" type="button" uk-close></button>
+    <h4>Menü</h4>
+    <ul class="uk-nav uk-nav-default mt-4">
+      <li><a href="/index.html"><i class="fas fa-home fa-sm mr-1"></i> Anasayfa</a></li>
+      <li><a href="/movies.html"><i class="fas fa-video fa-sm mr-1"></i> Filmler</a></li>
+      <li><a href="/categories.html"><i class="fas fa-list fa-sm mr-1"></i> Kategoriler</a></li>
+      <li><a href="/contact.html"><i class="fas fa-envelope fa-sm mr-1"></i> İletişim</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 px-0">
+      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" id="bigMovieSlider"
+        uk-slideshow="ratio: 1080:300; autoplay: true; /*animation: push;*/">
+        <ul class="uk-slideshow-items">
+          <li>
+            <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+              <img src="/src/includes/images/movies/cover-avengers.jpg" alt="" uk-cover>
+            </div>
+            <div class="uk-overlay uk-animation-fade slideshow-caption uk-position-bottom-left uk-light">
+              <h1 class="uk-text-bold">Yenilmezler : End Game</h1>
+              <div class="uk-flex mt-2 ml-1">
+                <div class="mr-5">
+                  <i class="fas fa-clock"></i> 03:01:00
+                </div>
+                <div class="mr-3">
+                  <i class="fas fa-eye"></i> 7698
+                </div>
+                <div class="mr-3">
+                  <i class="fas fa-comment"></i> 3
+                </div>
+                <div class="mr-3">
+                  <i class="fas fa-thumbs-up"></i> 2590
+                </div>
+              </div>
+
+              <div class="uk-flex mt-3">
+                <div class="mr-3">
+                  <a href="pages/watch.html" class="uk-button uk-button-default uk-text-bold">
+                    <i class="fas fa-play mr-2"></i> Şimdi İzle
+                  </a>
+                </div>
+                <div class="mr-3">
+                  <a href="pages/watch.html" class="uk-button uk-button-danger uk-text-bold">
+                    <i class="fas fa-download mr-2"></i> İndir
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+              <img src="/src/includes/images/movies/cover-joker.jpg" alt="" uk-cover>
+            </div>
+            <div class="uk-overlay uk-animation-fade slideshow-caption uk-position-bottom-left uk-light">
+              <h1 class="uk-text-bold">Joker</h1>
+              <div class="uk-flex mt-2 ml-1">
+                <div class="mr-5">
+                  <i class="fas fa-clock"></i> 02:02:00
+                </div>
+                <div class="mr-3">
+                  <i class="fas fa-eye"></i> 13074
+                </div>
+                <div class="mr-3">
+                  <i class="fas fa-comment"></i> 2
+                </div>
+                <div class="mr-3">
+                  <i class="fas fa-thumbs-up"></i> 10364
+                </div>
+              </div>
+
+              <div class="uk-flex mt-3">
+                <div class="mr-3">
+                  <a href="pages/watch.html" class="uk-button uk-button-default uk-text-bold">
+                    <i class="fas fa-play mr-2"></i> Şimdi İzle
+                  </a>
+                </div>
+                <div class="mr-3">
+                  <a href="pages/watch.html" class="uk-button uk-button-danger uk-text-bold">
+                    <i class="fas fa-download mr-2"></i> İndir
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+              <img src="/src/includes/images/movies/cover-esaretin-bedeli.jpg" alt="" uk-cover>
+            </div>
+            <div class="uk-overlay uk-animation-fade slideshow-caption uk-position-bottom-left uk-light">
+              <h1 class="uk-text-bold">Esaretin Bedeli</h1>
+              <div class="uk-flex mt-2 ml-1">
+                <div class="mr-5">
+                  <i class="fas fa-clock"></i> 02:22:00
+                </div>
+                <div class="mr-3">
+                  <i class="fas fa-eye"></i> 24675
+                </div>
+                <div class="mr-3">
+                  <i class="fas fa-comment"></i> 4
+                </div>
+                <div class="mr-3">
+                  <i class="fas fa-thumbs-up"></i> 19324
+                </div>
+              </div>
+
+              <div class="uk-flex mt-3">
+                <div class="mr-3">
+                  <a href="pages/watch.html" class="uk-button uk-button-default uk-text-bold">
+                    <i class="fas fa-play mr-2"></i> Şimdi İzle
+                  </a>
+                </div>
+                <div class="mr-3">
+                  <a href="pages/watch.html" class="uk-button uk-button-danger uk-text-bold">
+                    <i class="fas fa-download mr-2"></i> İndir
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+          uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+          uk-slideshow-item="next"></a>
+      </div>
+    </div>
+  </div>
+  <div class="row uk-margin-large-top">
+    <div class="col-md-12 px-5">
+      <div uk-slider="autoplay: true; autoplay-interval: 3000;">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+          <div class="uk-flex mb-3">
+            <h2 class="uk-text-bold mr-2">Menflix'te Popüler</h2>
+            <a class="mt-1" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="mt-1" href="#" uk-slidenav-next uk-slider-item="next"></a>
+          </div>
+          <ul class="uk-slider-items uk-child-width-1-4@s uk-grid">
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-godfather.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Suç</span>
+                        <span class="uk-badge px-2 mr-1">Drama</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>The Godfather</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 29775
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 4
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 25363
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-inception.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Bilim Kurgu</span>
+                        <span class="uk-badge px-2 mr-1">Aksiyon</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Inception</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 87451
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 3
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 9406
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-batman.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Aksiyon</span>
+                        <span class="uk-badge px-2 mr-1">Suç</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Batman</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 10075
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 5
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 5641
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-forrest-gump.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Drama</span>
+                        <span class="uk-badge px-2 mr-1">Romantik</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Forrest Gump</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 30175
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 16
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 19231
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-spiderman.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Macera</span>
+                        <span class="uk-badge px-2 mr-1">Aksiyon</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Örümcek Adam 3</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 17628
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 3
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 6754
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-matrix.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Aksiyon</span>
+                        <span class="uk-badge px-2 mr-1">Bilim Kurgu</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Matrix</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 275
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 14
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 94
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row uk-margin-large-top">
+    <div class="col-md-12 px-5">
+      <div uk-slider="autoplay: true; autoplay-interval: 3000;">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+          <div class="uk-flex mb-3">
+            <h2 class="uk-text-bold mr-2">Gündemdekiler</h2>
+            <a class="mt-1" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="mt-1" href="#" uk-slidenav-next uk-slider-item="next"></a>
+          </div>
+          <ul class="uk-slider-items uk-child-width-1-4@s uk-grid">
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-joker.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Bilim Kurgu</span>
+                        <span class="uk-badge px-2 mr-1">Aksiyon</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Joker</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 275
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 14
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 94
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-fight-club.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Drama</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Fight Club</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 78541
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 6
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 45632
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-deadpool.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Korku</span>
+                        <span class="uk-badge px-2 mr-1">Gerilim</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Deadpool</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 2745
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 7
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 142
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-esaretin-bedeli.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Macera</span>
+                        <span class="uk-badge px-2 mr-1">Vizyondakiler</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Esaretin Bedeli</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 275
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 14
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 94
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-batman.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Aksiyon</span>
+                        <span class="uk-badge px-2 mr-1">Suç</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Batman</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 10075
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 5
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 5641
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-inception.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Bilim Kurgu</span>
+                        <span class="uk-badge px-2 mr-1">Aksiyon</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Inception</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 87451
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 3
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 9406
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row uk-margin-large-top">
+    <div class="col-md-12 px-5">
+      <div uk-slider="autoplay: true; autoplay-interval: 3000;">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+          <div class="uk-flex mb-3">
+            <h2 class="uk-text-bold mr-2">Senin İçin Seçtiklerimiz</h2>
+            <a class="mt-1" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="mt-1" href="#" uk-slidenav-next uk-slider-item="next"></a>
+          </div>
+          <ul class="uk-slider-items uk-child-width-1-4@s uk-grid">
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-fight-club.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Drama</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Fight Club</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 78541
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 6
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 45632
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-godfather.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Suç</span>
+                        <span class="uk-badge px-2 mr-1">Drama</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>The Godfather</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 29775
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 4
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 25363
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-interstellar.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Macera</span>
+                        <span class="uk-badge px-2 mr-1">Bilim Kurgu</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Yıldızlararası</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 8792
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 6
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 4626
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-spiderman.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Macera</span>
+                        <span class="uk-badge px-2 mr-1">Aksiyon</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Örümcek Adam 3</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 17628
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 3
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 6754
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-green-mile.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Suç</span>
+                        <span class="uk-badge px-2 mr-1">Drama</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Yeşil Yol</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 98642
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 9
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 91043
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-forrest-gump.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Drama</span>
+                        <span class="uk-badge px-2 mr-1">Romantik</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Forrest Gump</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 30175
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 16
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 19231
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row uk-margin-large-top">
+    <div class="col-md-12 px-5">
+      <div uk-slider="autoplay: true; autoplay-interval: 3000;">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+          <div class="uk-flex mb-3">
+            <h2 class="uk-text-bold mr-2">Bu Hafta Popüler</h2>
+            <a class="mt-1" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="mt-1" href="#" uk-slidenav-next uk-slider-item="next"></a>
+          </div>
+          <ul class="uk-slider-items uk-child-width-1-4@s uk-grid">
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-inception.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Bilim Kurgu</span>
+                        <span class="uk-badge px-2 mr-1">Aksiyon</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Inception</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 87451
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 3
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 9406
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-green-mile.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Suç</span>
+                        <span class="uk-badge px-2 mr-1">Drama</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Yeşil Yol</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 98642
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 9
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 91043
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-leon.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Aksiyon</span>
+                        <span class="uk-badge px-2 mr-1">Drama</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Leon</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 8763
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 6
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 3245
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-interstellar.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Macera</span>
+                        <span class="uk-badge px-2 mr-1">Bilim Kurgu</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Yıldızlararası</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 8792
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 6
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 4626
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-gisaengchung.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Komedi</span>
+                        <span class="uk-badge px-2 mr-1">Drama</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>Parasite</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 6542
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 9
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 324
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="uk-transition-toggle">
+              <div class="uk-inline">
+                <a href="pages/watch.html">
+                  <img src="/src/includes/images/movies/cover-godfather.jpg">
+                  <div class="uk-transition-fade">
+                    <div class="uk-overlay-primary uk-position-cover"></div>
+                    <div class="uk-overlay uk-position-top">
+                      <div class="uk-flex">
+                        <span class="uk-badge px-2 mr-1">Suç</span>
+                        <span class="uk-badge px-2 mr-1">Drama</span>
+                      </div>
+                    </div>
+                    <div class="uk-overlay uk-position-bottom">
+                      <h4>The Godfather</h4>
+                      <div class="uk-flex">
+                        <div class="mr-3">
+                          <i class="fas fa-eye"></i> 29775
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-comment"></i> 4
+                        </div>
+                        <div class="mr-3">
+                          <i class="fas fa-thumbs-up"></i> 25363
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row uk-margin-large-top">
+    <div class="col-md-12 px-5">
+      <a href="/movies.html" class="uk-button btn-danger uk-button-large uk-position-center uk-text-bold">
+        <i class="fas fa-sync fa-spin mr-1"></i> Daha Fazla Film Yükle
+      </a>
+    </div>
+  </div>
+  <footer>
+    <div class="row uk-margin-large-top">
+      <div class="col-md-12 px-0">
+        <div class="py-5 uk-section-secondary uk-light">
+          <div class="uk-container">
+            <h3>Yasal Açıklama</h3>
+            <p>Paylaşılan içeriklerin <b>Menflix</b> ile bir alakası olmayıp, <b>Menflix</b> yasalara
+              göre sadece "yer sağlayıcı" olarak hizmet etmektedir. 5651 kanunda belirtildiği gibi
+              "Yer sağlayıcı, yer sağladığı içeriği kontrol etmek veya hukuka aykırı bir faaliyetin
+              söz konusu olup olmadığını araştırmakla yükümlü değildir."</p>
+            <div class="uk-flex">
+              <a href="#" class="mr-2">
+                <i class="fab fa-instagram fa-lg"></i>
+              </a>
+              <a href="#" class="mr-2">
+                <i class="fab fa-facebook-square fa-lg"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter-square fa-lg"></i>
+              </a>
+            </div>
+            <p class="mt-2" style="text-align: center;">
+              <a href="index.html" class="mr-2">Anasayfa</a>
+              <a href="movies.html" class="mr-2">Filmler</a>
+              <a href="categories.html" class="mr-2">Kategoriler</a>
+              <a href="contact.html" class="mr-2">İletişim</a>
+            </p>
+            <p class="mt-4" style="text-align: center;">
+              © Menflix 2020 - Tüm Hakları Saklıdır <br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<router-outlet></router-outlet>
