@@ -29,13 +29,20 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/includes/css/bootstrap-reboot.min.css",
-              "src/includes/css/bootstrap.min.css",
-              "src/includes/css/fontawesome.min.css",
-              "src/includes/css/main.css",
-              "src/includes/css/uikit.min.css"
+              "src/assets/css/bootstrap-reboot.min.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/fontawesome.min.css",
+              "src/assets/css/main.css",
+              "src/assets/css/uikit.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/fontawesome.min.js",
+              "src/assets/js/jquery-3.4.1.min.js",
+              "src/assets/js/main.js",
+              "src/assets/js/uikit-icons.min.js",
+              "src/assets/js/uikit.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,13 +104,20 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/includes/css/bootstrap-reboot.min.css",
-              "src/includes/css/bootstrap.min.css",
-              "src/includes/css/fontawesome.min.css",
-              "src/includes/css/main",
-              "src/includes/css/uikit.min.css"
+              "src/assets/css/bootstrap-reboot.min.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/fontawesome.min.css",
+              "src/assets/css/main",
+              "src/assets/css/uikit.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/fontawesome.min.js",
+              "src/assets/js/jquery-3.4.1.min.js",
+              "src/assets/js/main.js",
+              "src/assets/js/uikit-icons.min.js",
+              "src/assets/js/uikit.min.js"
+            ]
           }
         },
         "lint": {
