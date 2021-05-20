@@ -1,88 +1,74 @@
 /*
-    Name: Covtrack
-    Author: Quixlab
-    Author Portfolio : https://themeforest.net/user/quixlab/portfolio
-    Email: quixlab.com@gmail.com
-    Skype: sporsho9 
-
-
-    Table of Content: 
-
-    1. Abstract
-    2. Bootstrap CSS
-    3. Base
-    4. Layout
-    5. Component
-    6. Pages
-    
-
+6200ee
 @import url(../vendor/perfect-scrollbar/perfect-scrollbar.css);*/
 @import url(../vendor/datatable/jquery.dataTables.min.css);
 @import url(../vendor/vectormap/jqvmap.css);
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap");
 @import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
 .bg {
-  background: #6200ee;
+  background: #AB0000;
 }
-
+.virus-symptoms-card .icon-thumb {
+  width: 60px;
+  margin: auto; }
 /* .gradient-2 {
-  background: #6200ee;
+  background: #AB0000;
 }
 
 .gradient-3 {
-  background: #6200ee;
+  background: #AB0000;
 }
 
 .gradient-4 {
-  background: #6200ee;
+  background: #AB0000;
 }
 
 .gradient-5 {
-  background: #6200ee;
+  background: #AB0000;
 }
 
 .gradient-6 {
-  background: #6200ee;
+  background: #AB0000;
 }
 
 .gradient-7 {
-  background: #6200ee;
+  background: #AB0000;
 }
 
 .gradient-8 {
-  background: #6200ee;
+  background: #AB0000;
 }
 
 .gradient-9 {
-  background: #6200ee;
+  background: #AB0000;
 }
 
 .gradient-10 {
-  background: #6200ee;
+  background: #AB0000;
 }
 
 .gradient-11 {
-  background: #6200ee;
+  background: #AB0000;
 }
 
 .gradient-12 {
-  background: #6200ee;
+  background: #AB0000;
 }
 
 .gradient-13 {
-  background: #6200ee;
+  background: #AB0000;
 }
 
 .gradient-14 {
-  background: #6200ee;
+  background: #AB0000;
 }
 
 .gradient-15 {
-  background: #6200ee;
+  background: #AB0000;
 }
 
 .gradient-16 {
-  background: #6200ee;
+  background: #AB0000;
 } */
 
 
@@ -100,7 +86,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #6200ee;
+  --primary: #AB0000;
   --secondary: #673bb7;
   --success: #2dce99;
   --info: #50e3c2;
@@ -251,7 +237,7 @@ sup {
 } */
 
 a {
-  color: #6200ee;
+  color: #AB0000;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2592,8 +2578,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #6200ee;
-  border-color: #6200ee;
+  background-color: #AB0000;
+  border-color: #AB0000;
 }
 .btn-primary:hover {
   color: #fff;
@@ -2607,8 +2593,8 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #6200ee;
-  border-color: #6200ee;
+  background-color: #AB0000;
+  border-color: #AB0000;
 }
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
@@ -2855,13 +2841,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #6200ee;
-  border-color: #6200ee;
+  color: #AB0000;
+  border-color: #AB0000;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #6200ee;
-  border-color: #6200ee;
+  background-color: #AB0000;
+  border-color: #AB0000;
 }
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
@@ -2869,15 +2855,15 @@ fieldset:disabled a.btn {
 }
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-  color: #6200ee;
+  color: #AB0000;
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #6200ee;
-  border-color: #6200ee;
+  background-color: #AB0000;
+  border-color: #AB0000;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -3104,7 +3090,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #6200ee;
+  color: #AB0000;
   text-decoration: none;
 }
 .btn-link:hover {
@@ -3412,7 +3398,7 @@ input[type="button"].btn-block {
 .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #6200ee;
+  background-color: #AB0000;
 }
 .dropdown-item.disabled,
 .dropdown-item:disabled {
@@ -3750,8 +3736,8 @@ input[type="button"].btn-block {
 }
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #6200ee;
-  background-color: #6200ee;
+  border-color: #AB0000;
+  background-color: #AB0000;
 }
 .custom-control-input:focus ~ .custom-control-label::before {
   box-shadow: 0 0 0 0.2rem rgba(123, 111, 255, 0.25);
@@ -3810,8 +3796,8 @@ input[type="button"].btn-block {
 .custom-checkbox
   .custom-control-input:indeterminate
   ~ .custom-control-label::before {
-  border-color: #6200ee;
-  background-color: #6200ee;
+  border-color: #AB0000;
+  background-color: #AB0000;
 }
 
 .custom-checkbox
@@ -4024,7 +4010,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #6200ee;
+  background-color: #AB0000;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
@@ -4051,7 +4037,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #6200ee;
+  background-color: #AB0000;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
@@ -4081,7 +4067,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #6200ee;
+  background-color: #AB0000;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
@@ -4207,7 +4193,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #6200ee;
+  background-color: #AB0000;
 }
 
 .nav-fill .nav-item {
@@ -4876,7 +4862,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #6200ee;
+  color: #AB0000;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -4907,8 +4893,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #6200ee;
-  border-color: #6200ee;
+  background-color: #AB0000;
+  border-color: #AB0000;
 }
 
 .page-item.disabled .page-link {
@@ -4990,7 +4976,7 @@ a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #6200ee;
+  background-color: #AB0000;
 }
 a.badge-primary:hover,
 a.badge-primary:focus {
@@ -5274,7 +5260,7 @@ a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #6200ee;
+  background-color: #AB0000;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5365,8 +5351,8 @@ a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #6200ee;
-  border-color: #6200ee;
+  background-color: #AB0000;
+  border-color: #AB0000;
 }
 
 .list-group-horizontal {
@@ -6420,7 +6406,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #6200ee !important;
+  background-color: #AB0000 !important;
 }
 
 a.bg-primary:hover,
@@ -6556,7 +6542,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #6200ee !important;
+  border-color: #AB0000 !important;
 }
 
 .border-secondary {
@@ -10089,7 +10075,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #6200ee !important;
+  color: #AB0000 !important;
 }
 
 a.text-primary:hover,
@@ -10308,7 +10294,7 @@ body.dashboard:before {
   width: 100%;
   position: fixed;
   z-index: -9;
-  background: #6200ee;
+  background: #AB0000;
 }
 
 #main-wrapper {
@@ -10347,7 +10333,7 @@ a:focus,
 a.active {
   text-decoration: none;
   outline: none;
-  color: #6200ee;
+  color: #AB0000;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -10610,7 +10596,7 @@ a.active {
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  background-color: #6200ee;
+  background-color: #AB0000;
   border-radius: 100%;
   display: inline-block;
   -webkit-animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;
@@ -10696,7 +10682,7 @@ a.active {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 0px;
-  color: #6200ee;
+  color: #AB0000;
 }
 .page_title p span {
   line-height: 30px;
@@ -10788,10 +10774,10 @@ a.active {
   left: 0px;
 }
 .navbar-nav .nav-item.active i {
-  color: #6200ee !important;
+  color: #AB0000 !important;
 }
 .navbar-nav .nav-item.active a {
-  color: #6200ee !important;
+  color: #AB0000 !important;
 }
 .navbar-nav .nav-item .nav-link {
   padding: 10px 30px 10px 30px;
@@ -10802,7 +10788,7 @@ a.active {
 .navbar-nav .nav-item .nav-link:focus,
 .navbar-nav .nav-item .nav-link.active {
   opacity: 1;
-  color: #6200ee !important;
+  color: #AB0000 !important;
 }
 .navbar-nav .nav-item .dropdown-menu {
   border: 0px;
@@ -10843,7 +10829,7 @@ a.active {
 .navbar-nav .nav-item .dropdown-menu .dropdown-item i {
   margin-right: 10px;
   font-size: 22px;
-  color: #6200ee;
+  color: #AB0000;
   font-weight: bold;
 }
 .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover,
@@ -10942,7 +10928,7 @@ a.active {
   z-index: 9;
   top: 4.75rem;
   right: 100%;
-  background-color: #6200ee;
+  background-color: #AB0000;
   color: #fff;
   display: inline-block;
   height: 2.125rem;
@@ -11152,8 +11138,8 @@ a.active {
   .paginate_button.current:hover {
   color: #fff !important;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  background-color: #6200ee !important;
-  background: #6200ee !important;
+  background-color: #AB0000 !important;
+  background: #AB0000 !important;
 }
 [data-bodybg="color_2"]
   .dataTables_wrapper
@@ -11161,8 +11147,8 @@ a.active {
   .paginate_button:hover {
   color: #fff !important;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  background-color: #6200ee !important;
-  background: #6200ee !important;
+  background-color: #AB0000 !important;
+  background: #AB0000 !important;
 }
 [data-bodybg="color_2"]
   .dataTables_wrapper
@@ -11278,8 +11264,8 @@ a.active {
   .paginate_button.current:hover {
   color: #fff !important;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  background-color: #6200ee !important;
-  background: #6200ee !important;
+  background-color: #AB0000 !important;
+  background: #AB0000 !important;
 }
 [data-bodybg="color_3"]
   .dataTables_wrapper
@@ -11287,8 +11273,8 @@ a.active {
   .paginate_button:hover {
   color: #fff !important;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  background-color: #6200ee !important;
-  background: #6200ee !important;
+  background-color: #AB0000 !important;
+  background: #AB0000 !important;
 }
 [data-bodybg="color_3"]
   .dataTables_wrapper
@@ -11404,8 +11390,8 @@ a.active {
   .paginate_button.current:hover {
   color: #fff !important;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  background-color: #6200ee !important;
-  background: #6200ee !important;
+  background-color: #AB0000 !important;
+  background: #AB0000 !important;
 }
 [data-bodybg="color_4"]
   .dataTables_wrapper
@@ -11413,8 +11399,8 @@ a.active {
   .paginate_button:hover {
   color: #fff !important;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  background-color: #6200ee !important;
-  background: #6200ee !important;
+  background-color: #AB0000 !important;
+  background: #AB0000 !important;
 }
 [data-bodybg="color_4"]
   .dataTables_wrapper
@@ -11530,8 +11516,8 @@ a.active {
   .paginate_button.current:hover {
   color: #fff !important;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  background-color: #6200ee !important;
-  background: #6200ee !important;
+  background-color: #AB0000 !important;
+  background: #AB0000 !important;
 }
 [data-bodybg="color_5"]
   .dataTables_wrapper
@@ -11539,8 +11525,8 @@ a.active {
   .paginate_button:hover {
   color: #fff !important;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  background-color: #6200ee !important;
-  background: #6200ee !important;
+  background-color: #AB0000 !important;
+  background: #AB0000 !important;
 }
 [data-bodybg="color_5"]
   .dataTables_wrapper
@@ -11656,8 +11642,8 @@ a.active {
   .paginate_button.current:hover {
   color: #fff !important;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  background-color: #6200ee !important;
-  background: #6200ee !important;
+  background-color: #AB0000 !important;
+  background: #AB0000 !important;
 }
 [data-bodybg="color_6"]
   .dataTables_wrapper
@@ -11665,8 +11651,8 @@ a.active {
   .paginate_button:hover {
   color: #fff !important;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  background-color: #6200ee !important;
-  background: #6200ee !important;
+  background-color: #AB0000 !important;
+  background: #AB0000 !important;
 }
 [data-bodybg="color_6"]
   .dataTables_wrapper
@@ -11830,7 +11816,7 @@ html[dir="rtl"] [direction="rtl"] .intro {
 .form-control.active {
   box-shadow: none !important;
   outline: none;
-  border-color: #6200ee;
+  border-color: #AB0000;
   color: #454545;
   background: #fff;
 }
@@ -11872,7 +11858,7 @@ input:-internal-autofill-selected {
 .nice-select .option.focus,
 .nice-select .option.selected.focus {
   background-color: white;
-  color: #6200ee;
+  color: #AB0000;
 } */
 
 .table {
@@ -12194,7 +12180,7 @@ table.dataTable tbody tr {
   max-width: 500px;
 }
 .intro .intro-content .btn {
-  background: #6200ee;
+  background: #AB0000;
   color: #fff;
   border-radius: 5px;
   display: inline-block;
@@ -12208,7 +12194,7 @@ table.dataTable tbody tr {
 .intro .intro-content .btn:focus,
 .intro .intro-content .btn:active,
 .intro .intro-content .btn.active {
-  background: #6200ee;
+  background: #AB0000;
 }
 @media only screen and (max-width: 1199px) {
   .intro .intro-content .btn {
@@ -12305,7 +12291,7 @@ table.dataTable tbody tr {
 .section_heading span {
   font-size: 24px;
   font-weight: 500;
-  color: #6200ee;
+  color: #AB0000;
   position: relative;
   margin-bottom: 30px;
   display: inline-block;
@@ -12317,7 +12303,7 @@ table.dataTable tbody tr {
   right: 0;
   width: 50px;
   height: 2px;
-  background: #6200ee;
+  background: #AB0000;
   bottom: -15px;
   margin: 0 auto;
 }
@@ -12337,7 +12323,7 @@ table.dataTable tbody tr {
   }
 }
 .features-content span i {
-  color: #6200ee;
+  color: #AB0000;
   font-size: 36px;
 }
 .features-content h4 {
@@ -12354,7 +12340,7 @@ table.dataTable tbody tr {
   margin: 0 auto 30px;
 }
 .features-content a {
-  color: #6200ee;
+  color: #AB0000;
   font-size: 14px;
 }
 
